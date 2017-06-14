@@ -1,14 +1,14 @@
 require 'sinatra'
 
 get '/' do
-  "Hello world"
+  "Mr.Knight"
 end
-
-
-get "/sinatra" do
-	"Hello Sinatra"
-end
-
-get '/bunsenator' do
-  "Bunsen rocks!"
-end
+#
+#
+# get "/wyncode" do
+# 	"Hello Sinatra"
+# end
+#
+# get '/bunsenator' do
+#   "Bunsen rocks!"
+# end
