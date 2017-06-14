@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Mr.Knight"
+  File.new("public/hello.txt").readlines
 end
 #
 #
